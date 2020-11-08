@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+</head>
+<body>
+<div></div>
+<form action="/register" enctype="multipart/form-data" method="post">
+    <div class="reg-user">
+        <p><b>SIGN UP USER</b></p>
+    <input type="text" name="name" placeholder="Please input name" > <br>
+    <input type="text" name="surname" placeholder="Please input surname"> <br>
+    <input type="text" name="username" placeholder="Please input email"> <br>
+    <input type="password" name="password" placeholder="Please input password"> <br>
+    <input type="file" name="image"> <br>
+    <select id="userTypeSelect" name="type">
+        <option value="TEAM_LEADER">TEAM LEADER</option>
+        <option value="TEAM_MEMBER">TEAM MEMBER</option>
+    </select> <br>
+    <input  id="saveUser" type="submit" value="Register">
+    </div>
+</form>
+
+</body>
+</html>
